@@ -11,17 +11,16 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <encoding>UTF-8</encoding>
+        <!--<encoding>UTF-8</encoding>-->
         <scala.version>2.11.8</scala.version>
-        <scala.compat.version>2.11</scala.compat.version>
-        <spark.ver>2.1.0</spark.ver>
+        <!--<scala.compat.version>2.11</scala.compat.version>-->
     </properties>
 
     <dependencies>
         <dependency> <!-- Spark dependency -->
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-sql_2.11</artifactId>
-            <version>2.4.0</version>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.1.1</version>
         </dependency>
 
 
