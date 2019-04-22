@@ -4,6 +4,7 @@ src/main/resources
 ### Scala template
 *.class
 *.log
+*.iml
 
 ### SBT template
 # Simple Build Tool
